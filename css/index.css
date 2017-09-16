@@ -581,6 +581,9 @@ input{
 .list1{
 	margin-right: 0;
 }
+.list1:hover{
+	transform: none;
+}
 .list2{
 	padding-top: 0;
 	height: 299px;
@@ -596,6 +599,7 @@ span{
 	margin-bottom: 9px;
 	float: left;
 }
+	
 .list-box2{
 	width: 234px;
 	height: 145px;
@@ -717,12 +721,17 @@ span{
 	height: 435px;
 	background: #fff;
 	float: left;
-	margin-right: 14px;
+	margin-right: 13px;
+	transition: 1s;
+}
+.hot-list:hover{
+	border: 1px solid red;
 }
 .hot-list1{
 margin-right: 0;
 
 }
+
 .hot-img{
 	width: 296px;
 	height: 220px;
@@ -818,8 +827,12 @@ margin-right: 0;
 	width: 216px;
 	height: 154px;
 	margin: 0 auto;
+	transition: 1s;
 
 }	
+.content-img img:hover{
+	transform: translate(-3px, 0);
+}
 
 /* 视频开始 */
 .vido{
