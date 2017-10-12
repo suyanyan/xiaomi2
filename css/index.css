@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'iconfont';  /* project id 401029 */
+  font-family: 'iconfont';  
   src: url('https://at.alicdn.com/t/font_401029_i2n8qovjjfumzpvi.eot');
   src: url('https://at.alicdn.com/t/font_401029_i2n8qovjjfumzpvi.eot?#iefix') format('embedded-opentype'),
   url('https://at.alicdn.com/t/font_401029_i2n8qovjjfumzpvi.woff') format('woff'),
@@ -16,13 +16,11 @@
 .head-neikuan{
 	width: 1226px;
 	height: 40px;
-	/* background: yellowgreen; */
 	margin: 0 auto;
 }
 .head-l{
 	
 	height: 40px;
-	/* background: orchid; */
 	float: left;
 }
 
@@ -31,7 +29,6 @@
 	float: left; 
 	line-height: 40px;
 	font-size: 12px;
-	/* color: #b0b0b0; */
 	margin-right: 7px;
 	color: #b0b0b0;
 }
@@ -66,13 +63,11 @@
 .head-r{
 	
 	height: 40px;
-	/* background: orange; */
 	float: right;
 }
 .gowuche{
 	width: 103px;
 	height: 40px;
-	/* background: skyblue; */
 	float:left;
 	margin-left: 26px;
 	padding-left: 17px;
@@ -106,8 +101,6 @@
 .nav{
 	width: 1226px;
 	height: 55px;
-	/* background: #000; */
-	margin: 0 auto;
 	margin-top: 22px;	
 }
 .icon{
@@ -118,9 +111,7 @@
 
 }
 .nav-center{
-	/* width: 607px; */
 	height: 55px;
-	/* background: red; */
 	margin-left: 189px;
 	float: left;
 	
@@ -128,7 +119,6 @@
 .nav-r{
 	width: 294px;
 	height: 48px;
-	/* background: red; */
 	float: right;
 	border: 1px solid #e0e0e0;
 	margin:3px 0 13px;
@@ -149,7 +139,6 @@
 .nav-r1{
 	width: 78px;
 	height: 18px;
-	/* background: #eeeeee; */
 	float: left;
 	margin-left: 138px;
 	margin-top: -34px;
@@ -169,17 +158,11 @@
 .nav-r3{
 	width: 50px;
 	height: 48px;
-	/* background: pink; */
 	float: right;
-	/* border-left: 1px solid #e0e0e0; */
-	/* position: absolute; */
-	/* margin-top: -49px; */
-	/* margin-left: 239px; */
 }
 .nav-img{
 	width: 17px;
 	height: 18px;
-	/* background: #000; */
 	margin: 15px 17px 15px 16px ;
 }
  
@@ -313,18 +296,28 @@ input{
 	background: rgba(250, 123, 10, 0.8);
 }
 
-
-
+.banner-l ul li a{
+	float: left;
+	display: inline-block;
+	color: #fff;
+}
+.banner-l ul li span{
+	/* width: 40px;
+	height: 42px; */
+	float: right;
+	display: inline-block;
+	font-size: 22px;
+	color: #999;
+	margin-right: 15px;
+}
 
 
 /* banner下面一栏 */
 .conter{
 	width: 1226px;
 	height: 170px;
-	/* background: pink; */
 	margin: 0 auto;
 	margin-top: 14px;
-	/* float: left; */
 }
 .conter-img1{
 	width: 316px;
@@ -345,7 +338,6 @@ input{
 .conter-img1 ul li{
 	width: 76px;
 	height: 82px;
-	/* background: red; */
 	float: left;
 	border-bottom: 1px solid #f0f0f0;
 	border-right: 1px solid #f0f0f0;
@@ -360,7 +352,6 @@ input{
 .conter-img1  a{
 	width: 70px;
 	height: 55px;
-	/* background: pink; */
 	display: block;
 	margin: 0 auto;
 	text-align: center;
@@ -383,14 +374,12 @@ input{
 .danpin{
 	width: 1226px;
 	height: 438px;
-	/* background: greenyellow; */
 	margin: 0 auto;
 	margin-top: 26px;
 }
 .danpin-top{
 	width: 100%;
 	height: 58px;
-	/* background: pink; */
 }
 .danpin-top h1{
 	font-size: 22px;
@@ -529,14 +518,15 @@ input{
 .btom{
 	width: 100%;
 	height: 634px;
-	/* background: #000; */
 	float: left;
 }
 .btom-l{
 	width: 234px;
 	height: 614px;
-	/* background: red; */
 	float: left;
+}
+.btom-l:hover{
+	transform: translateY(-5px);
 }
 .btom-r{
 	width: 978px;
@@ -547,7 +537,6 @@ input{
 .btom-r1{
 	width: 978px;
 	height: 236px;
-	/* margin-bottom: 14px; */
 }
 .btom-r2{
 	width: 978px;
@@ -565,6 +554,9 @@ input{
 	position: relative;
 	overflow: hidden;
 	
+}
+.botm-list:hover{
+	box-shadow: 0px 8px 13px 3px rgba(170, 170, 170, 0.43);
 }
 .botm-box{
 	width: 100%;
@@ -664,11 +656,9 @@ span{
 	margin-bottom: 9px;
 	float: left;
 }
-	
 .list-box2{
 	width: 234px;
 	height: 145px;
-	/* background: lightpink; */
 }
 .list-box1-wenzi{
 	width: 100px;
@@ -696,7 +686,6 @@ span{
 	
 	height: 80px;
 	background: red;
-	
 	margin:32px 20px 31px 34px;
 }
 .biaoti5{
@@ -779,7 +768,6 @@ span{
 .hot-btom{
 	width: 1226px;
 	height: 435px;
-	/* background: #eee; */
 }
 .hot-list{
 	width: 296px;
@@ -787,7 +775,6 @@ span{
 	background: #fff;
 	float: left;
 	margin-right: 13px;
-/* 	transition: 1s; */
 }
 .hot-list:hover{
 	border: 1px solid red;
@@ -805,7 +792,6 @@ margin-right: 0;
 .hot-wenzi{
 	width: 239px;
 	height: 72px;
-	/* background: #b0b0b0; */
 	margin: 0 auto;
 	font-size: 14px;
 	margin-top: 34px;
