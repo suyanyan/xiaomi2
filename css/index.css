@@ -37,24 +37,24 @@
 }
 
 .head-weizi a{
-	color: #b0b0b0;
+	color: #ccc;
 }
-.head-weizi a:link{
+/* .head-weizi a:link{
 	
 	color: gold;
 }
 .head-weizi a:visited{
 	
 	color: hsl(300, 100%, 90%);
-}
-.head-weizi a:hover{
+} */
+.head-weizi:hover a{
 	
 	color: orange;
 }
-.head-weizi a:active{
+/* .head-weizi a:active{
 	
 	color: orangered;
-}
+} */
 .head-weizi a{
 	color: #b0b0b0;
 
@@ -71,6 +71,10 @@
 	float:left;
 	margin-left: 26px;
 	padding-left: 17px;
+	cursor: pointer;
+}
+.gowuche:hover .gwc{
+	color: orange;
 }
 .iconfont{
 
@@ -100,8 +104,8 @@
 /* 导航栏 */
 .nav{
 	width: 1226px;
-	height: 55px;
-	margin-top: 22px;	
+	height: 55px;	
+	margin: 22px auto;
 }
 .icon{
 	width: 57px;
@@ -130,7 +134,8 @@
 	font-size: 15px;
 	margin-right: 20px;
 	color: #333;
-	font-family:"微软雅黑"；
+	font-family:"微软雅黑";
+	cursor: pointer;
 }
 .nav-weizi1{
 	margin-right: 0;
@@ -170,6 +175,7 @@ input{
 	width: 240px;
 	height: 45px;
 	position: relative;
+	outline: none;
 }
 
 /* banner */
@@ -636,30 +642,44 @@ input{
 	margin-top: 20px;
 }
 .list1{
+
 	margin-right: 0;
 }
 .list1:hover{
 	transform: none;
+	box-shadow:none;
+
 }
 .list2{
+	width: auto;
+	height:auto;
 	padding-top: 0;
 	height: 299px;
 	background: #f5f5f5;
 }
-span{
+/* span{
 	text-decoration: auto;
-}
+} */
 .list-box1 {
 	width: 234px;
 	height: 145px;
 	background:#fff;
 	margin-bottom: 9px;
-	float: left;
+	transition: all 1s;
+	/* float: left; */
+	
+}
+.list-box1:hover{
+	box-shadow: 0px 8px 13px 3px rgba(170, 170, 170, 0.43);
+	transform: translateY(-5px);
+
 }
 .list-box2{
 	width: 234px;
 	height: 145px;
+	
 }
+
 .list-box1-wenzi{
 	width: 100px;
 	height: 145px;
@@ -776,9 +796,9 @@ span{
 	float: left;
 	margin-right: 13px;
 }
-.hot-list:hover{
+/* .hot-list:hover{
 	border: 1px solid red;
-}
+} */
 .hot-list1{
 margin-right: 0;
 
